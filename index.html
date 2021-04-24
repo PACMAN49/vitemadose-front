@@ -1,165 +1,221 @@
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png?v=oLnE8zppbY">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png?v=oLnE8zppbY">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png?v=oLnE8zppbY">
-    <link rel="manifest" href="/assets/images/favicon/site.webmanifest?v=oLnE8zppbY">
-    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg?v=oLnE8zppbY" color="#5561d9">
-    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico?v=oLnE8zppbY">
-    <meta name="apple-mobile-web-app-title" content="Vite Ma Dose">
-    <meta name="application-name" content="Vite Ma Dose">
-    <meta name="msapplication-TileColor" content="#585b79">
-    <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=oLnE8zppbY">
-    <meta name="theme-color" content="#ffffff">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Primary Meta Tags -->
-    <title>Vite Ma Dose : trouvez un créneau de vaccination COVID-19</title>
-    <meta name="title" content="Vite Ma Dose de Vaccin, le moteur de recherche d’un créneau de vaccination contre la Covid-19 dans un centre de vaccination en France.">
-    <meta name="description" content="Le site qui répertorie la majorité des centres de vaccination Covid-19 en France et vous permet de trouver un créneau de vaccination Pfizer-BioNTech, Moderna, ou AstraZeneca dans un centre de vaccination proche de chez vous.">
-    <meta name="keywords" content="Vaccination covid-19, Centres de Vaccination Covid19 en France, Covid-19, covid, covid-19, coronavirus, Moderna, Pfizer, AstraZeneca, vaccin, vaccination, campagne vaccinale, comorbidités">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://vitemadose.covidtracker.fr/">
-    <meta property="og:title" content="Le moteur de recherche d’un créneau de vaccination contre la Covid-19 dans un centre de vaccination en France.">
-    <meta property="og:description" content="Le site qui répertorie la majorité des centres de vaccination Covid-19 en France et vous permet de trouver un créneau de vaccination Pfizer-BioNTech, Moderna, ou AstraZeneca dans un centre de vaccination proche de chez vous.">
-    <meta property="og:image" content="https://vitemadose.covidtracker.fr/assets/images/social/vitemadose.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png?v=oLnE8zppbY">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png?v=oLnE8zppbY">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png?v=oLnE8zppbY">
+        <link rel="manifest" href="/assets/images/favicon/site.webmanifest?v=oLnE8zppbY">
+        <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg?v=oLnE8zppbY" color="#5561d9">
+        <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico?v=oLnE8zppbY">
+        <meta name="apple-mobile-web-app-title" content="Vite Ma Dose">
+        <meta name="application-name" content="Vite Ma Dose">
+        <meta name="msapplication-TileColor" content="#585b79">
+        <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=oLnE8zppbY">
+        <meta name="theme-color" content="#ffffff">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://vitemadose.covidtracker.fr/">
-    <meta property="twitter:title" content="Vite Ma Dose ! Le moteur de recherche d’un créneau de vaccination contre la Covid-19 dans un centre de vaccination en France.">
-    <meta property="twitter:description" content="Le site qui répertorie la majorité des centres de vaccination Covid-19 en France et vous permet de trouver un créneau de vaccination Pfizer-BioNTech, Moderna, ou AstraZeneca dans un centre de vaccination proche de chez vous.">
-    <meta property="twitter:image" content="https://vitemadose.covidtracker.fr/assets/images/social/vitemadose.png">
+        <!-- Primary Meta Tags -->
+        <title>Vite Ma Dose : trouvez un créneau de vaccination COVID-19</title>
+        <meta name="title"
+            content="Vite Ma Dose de Vaccin, le moteur de recherche d’un créneau de vaccination contre la Covid-19 dans un centre de vaccination en France.">
+        <meta name="description"
+            content="Le site qui répertorie la majorité des centres de vaccination Covid-19 en France et vous permet de trouver un créneau de vaccination Pfizer-BioNTech, Moderna, ou AstraZeneca dans un centre de vaccination proche de chez vous.">
+        <meta name="keywords"
+            content="Vaccination covid-19, Centres de Vaccination Covid19 en France, Covid-19, covid, covid-19, coronavirus, Moderna, Pfizer, AstraZeneca, vaccin, vaccination, campagne vaccinale, comorbidités">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://vitemadose.covidtracker.fr/">
+        <meta property="og:title"
+            content="Le moteur de recherche d’un créneau de vaccination contre la Covid-19 dans un centre de vaccination en France.">
+        <meta property="og:description"
+            content="Le site qui répertorie la majorité des centres de vaccination Covid-19 en France et vous permet de trouver un créneau de vaccination Pfizer-BioNTech, Moderna, ou AstraZeneca dans un centre de vaccination proche de chez vous.">
+        <meta property="og:image" content="https://vitemadose.covidtracker.fr/assets/images/social/vitemadose.png">
 
-    <script type="module" src="/src/index.ts"></script>
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://vitemadose.covidtracker.fr/">
+        <meta property="twitter:title"
+            content="Vite Ma Dose ! Le moteur de recherche d’un créneau de vaccination contre la Covid-19 dans un centre de vaccination en France.">
+        <meta property="twitter:description"
+            content="Le site qui répertorie la majorité des centres de vaccination Covid-19 en France et vous permet de trouver un créneau de vaccination Pfizer-BioNTech, Moderna, ou AstraZeneca dans un centre de vaccination proche de chez vous.">
+        <meta property="twitter:image" content="https://vitemadose.covidtracker.fr/assets/images/social/vitemadose.png">
 
-    <!-- Google Tag Manager tag (gtm.js) - Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-KWWTRTX');</script>
-</head>
-<body>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWWTRTX" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    <div class="container-xxl">
-        <vmd-app>
-            <h1 slot="main-title">
-                Votre vaccination contre la Covid <span class="text-secondary">facilement</span> et <span class="text-primary">rapidement</span>
-            </h1>
-            <div slot="about" style="margin-top: 40px; margin-left: 10px">
-                <div class="spacer mt-5 mb-5"></div>
+        <script type="module" src="/src/index.ts"></script>
 
-                <h2 class="text-primary pt-5 mb-5">
-                    Qu’est-ce que Vite Ma Dose&nbsp;?
-                </h2>
-                <p>
-                    Vite Ma Dose est un outil de <a href="https://covidtracker.fr/" target="_blank">CovidTracker</a> permettant de détecter les rendez-vous de vaccination contre la Covid-19. Vite Ma Dose propose des rendez-vous disponibles dans votre département afin de vous faire vacciner (sous réserve d’éligibilité). Vite Ma Dose offre une solution rapide, simple et fiable pour trouver un rendez-vous de vaccination contre la Covid-19.
-                </p>
-                <hr>
+        <!-- Google Tag Manager tag (gtm.js) - Google Tag Manager -->
+        <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-KWWTRTX');</script>
+    </head>
 
-                <h2 class="h5">Quel est l’intérêt de Vite Ma Dose de Vaccin&nbsp;?</h2>
-                <p>
-                    Vite Ma Dose est une plateforme qui permet de trouver un rendez-vous de vaccination rapidement dans son département. Sont actuellement recensés les créneaux de vaccination des plateformes de santé
-                    Doctolib, Keldoc, Maiia, Ordoclic, MaPharma. La réservation d’un créneau d’injection de vaccin dans un centre de vaccination s’effectue via les pages de ces plateformes de santé.
-                </p>
+    <body>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWWTRTX" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+        <div class="container-xxl">
+            <vmd-app>
+                <h1 slot="main-title">
+                    Votre vaccination contre la Covid <span class="text-secondary">facilement</span> et <span
+                        class="text-primary">rapidement</span>
+                </h1>
+                <div slot="about" style="margin-top: 40px; margin-left: 10px">
+                    <div class="spacer mt-5 mb-5"></div>
 
-                <hr>
-                <h2 class="h5">Comment fonctionne Vite Ma Dose&nbsp;?</h2>
-                Les algorithmes de Vite Ma Dose analysent les différentes plateformes de réservation de rendez-vous de vaccination afin de détecter les créneaux disponibles. Vite Ma Dose permet donc d’agréger ces rendez-vous de vaccination disponibles vous permettant de trouver une dose de vaccin contre le coronavirus plus rapidement.
+                    <h2 class="text-primary pt-5 mb-5">
+                        Qu’est-ce que Vite Ma Dose&nbsp;?
+                    </h2>
+                    <p>
+                        Vite Ma Dose est un outil de <a href="https://covidtracker.fr/" target="_blank">CovidTracker</a>
+                        permettant de détecter les rendez-vous de vaccination contre la Covid-19. Vite Ma Dose propose
+                        des rendez-vous disponibles dans votre département afin de vous faire vacciner (sous réserve
+                        d’éligibilité). Vite Ma Dose offre une solution rapide, simple et fiable pour trouver un
+                        rendez-vous de vaccination contre la Covid-19.
+                    </p>
+                    <hr>
 
-                <hr>
-                <h2 class="h5">Vite Ma Dose est-il à but lucratif&nbsp;?</h2>
-                Non, Vite Ma Dose n’est pas à but lucratif. La plateforme est gratuite, sans pub et il n’est pas nécessaire de s’inscrire pour l’utiliser. Le <u><a href="https://github.com/CovidTrackerFr/vitemadose-front">code informatique est disponible</a></u> en Open Source sur internet.
+                    <h2 class="h5">Quel est l’intérêt de Vite Ma Dose de Vaccin&nbsp;?</h2>
+                    <p>
+                        Vite Ma Dose est une plateforme qui permet de trouver un rendez-vous de vaccination rapidement
+                        dans son département. Sont actuellement recensés les créneaux de vaccination des plateformes de
+                        santé
+                        Doctolib, Keldoc, Maiia, Ordoclic, MaPharma. La réservation d’un créneau d’injection de vaccin
+                        dans un centre de vaccination s’effectue via les pages de ces plateformes de santé.
+                    </p>
 
-                <h2 id="en-savoir-plus" class="text-primary pt-5 mb-5 fst-normal">
-                    En savoir plus sur la vaccination contre la Covid-19
-                </h2>
-                <h2 class="h5">Qui peut se faire vacciner contre la Covid-19&nbsp;?</h2>
-                <p>
-                    De nombreuses personnes sont éligibles à la vaccination contre la Covid-19. On peut être éligible à la vaccination selon son âge, sa santé, ou sa profession. Voici la liste des personnes qui peuvent dès à présent être vaccinées&nbsp;:
-                </p>
-                <ul>
-                   <li>les personnes de 70 ans et plus quel que soit leur lieu de résidence&nbsp;;</li>
-                    <li>les résidents en établissements d’hébergement pour personnes âgées dépendantes (Ehpad), en unités de soins de longue durée (USLD) ou hébergées en résidences autonomie et résidences services&nbsp;;</li>
-                    <li>Les adultes qui souffrent d’une pathologie considérée comme à très haut risque de développer une forme grave de la Covid-19&nbsp;;</li>
-                    <li>les personnes (sans critère d’âge) en situation de handicap hébergées en maisons d’accueil spécialisées (MAS) ou en foyers d’accueil médicalisés (FAM)&nbsp;;</li>
-                    <li>les femmes enceintes à partir du deuxième trimestre de la grossesse&nbsp;;</li>
-                    <li>les personnes de 50 à 69 ans inclus souffrant d’au moins une comorbidité&nbsp;;</li>
-                    <li>les résidents de 60 ans et plus dans les foyers de travailleurs migrants (FTM)&nbsp;;</li>
-                    <li>toutes les personnes de 55 à 74 ans avec les vaccins AstraZeneca et Janssen à partir depuis le lundi 12 avril.</li>
-                </ul>
-                <p>Les professionnels de santé et du secteur médico-social sont également éligibles à la vaccination contre la Covid-19.</p>
+                    <hr>
+                    <h2 class="h5">Comment fonctionne Vite Ma Dose&nbsp;?</h2>
+                    Les algorithmes de Vite Ma Dose analysent les différentes plateformes de réservation de rendez-vous
+                    de vaccination afin de détecter les créneaux disponibles. Vite Ma Dose permet donc d’agréger ces
+                    rendez-vous de vaccination disponibles vous permettant de trouver un créneau de vaccination contre
+                    le coronavirus plus rapidement.
 
-                <hr>
+                    <hr>
+                    <h2 class="h5">Vite Ma Dose est-il à but lucratif&nbsp;?</h2>
+                    Non, Vite Ma Dose n’est pas à but lucratif. La plateforme est gratuite, sans pub et il n’est pas
+                    nécessaire de s’inscrire pour l’utiliser. Le <u><a
+                            href="https://github.com/CovidTrackerFr/vitemadose-front">code informatique est
+                            disponible</a></u> en Open Source sur internet.
 
-                <h2 class="h5">Où se faire vacciner&nbsp;?</h2>
-                <p>Si on est éligible, on peut être vacciné chez son médecin généraliste, dans un centre de vaccination, à la pharmacie ou dans tout établissement de santé ou médico-social proposant la vaccination contre la Covid-19. L’ensemble des centres de vaccination sont à retrouver sur Vite Ma Dose.</p>
+                    <h2 id="en-savoir-plus" class="text-primary pt-5 mb-5 fst-normal">
+                        En savoir plus sur la vaccination contre la Covid-19
+                    </h2>
+                    <h2 class="h5">Qui peut se faire vacciner contre la Covid-19&nbsp;?</h2>
+                    <p>
+                        De nombreuses personnes sont éligibles à la vaccination contre la Covid-19. On peut être
+                        éligible à la vaccination selon son âge, sa santé, ou sa profession. Voici la liste des
+                        personnes qui peuvent dès à présent être vaccinées&nbsp;:
+                    </p>
+                    <ul>
+                        <li>les personnes de 70 ans et plus quel que soit leur lieu de résidence&nbsp;;</li>
+                        <li>les résidents en établissements d’hébergement pour personnes âgées dépendantes (Ehpad), en
+                            unités de soins de longue durée (USLD) ou hébergées en résidences autonomie et résidences
+                            services&nbsp;;</li>
+                        <li>Les adultes qui souffrent d’une pathologie considérée comme à très haut risque de développer
+                            une forme grave de la Covid-19&nbsp;;</li>
+                        <li>les personnes (sans critère d’âge) en situation de handicap hébergées en maisons d’accueil
+                            spécialisées (MAS) ou en foyers d’accueil médicalisés (FAM)&nbsp;;</li>
+                        <li>les femmes enceintes à partir du deuxième trimestre de la grossesse&nbsp;;</li>
+                        <li>les personnes de 50 à 69 ans inclus souffrant d’au moins une comorbidité&nbsp;;</li>
+                        <li>les résidents de 60 ans et plus dans les foyers de travailleurs migrants (FTM)&nbsp;;</li>
+                        <li>toutes les personnes de 55 à 74 ans avec les vaccins AstraZeneca et Janssen à partir depuis
+                            le lundi 12 avril.</li>
+                    </ul>
+                    <p>Les professionnels de santé et du secteur médico-social sont également éligibles à la vaccination
+                        contre la Covid-19.</p>
 
-                <hr>
+                    <hr>
 
-                <h2 class="h5">Comment réserver un rendez-vous de vaccination&nbsp;?</h2>
-                <p>
-                    On peut se faire vacciner contre le coronavirus en réservant un rendez-vous grâce à Vite Ma Dose.
-                    On peut aussi prendre rendez-vous directement via les plateformes Doctolib, Maiia, MaPharma, ou Keldoc, ainsi que chez son médecin généraliste ou en pharmacie.
-                </p>
+                    <h2 class="h5">Où se faire vacciner&nbsp;?</h2>
+                    <p>Si on est éligible, on peut être vacciné chez son médecin généraliste, dans un centre de
+                        vaccination, à la pharmacie ou dans tout établissement de santé ou médico-social proposant la
+                        vaccination contre la Covid-19. L’ensemble des centres de vaccination sont à retrouver sur Vite
+                        Ma Dose.</p>
+
+                    <hr>
+
+                    <h2 class="h5">Comment réserver un rendez-vous de vaccination&nbsp;?</h2>
+                    <p>
+                        On peut se faire vacciner contre le coronavirus en réservant un rendez-vous grâce à Vite Ma
+                        Dose.
+                        On peut aussi prendre rendez-vous directement via les plateformes Doctolib, Maiia, MaPharma, ou
+                        Keldoc, ainsi que chez son médecin généraliste ou en pharmacie.
+                    </p>
 
 
-                <hr>
+                    <hr>
 
-                <h2 class="h5">Pourquoi se faire vacciner&nbsp;?</h2>
-                <p>Le vaccin contre le Covid-19 protège des formes graves de la maladie. Il semble aussi limiter les contaminations.</p>
+                    <h2 class="h5">Pourquoi se faire vacciner&nbsp;?</h2>
+                    <p>Le vaccin contre le Covid-19 protège des formes graves de la maladie. Il semble aussi limiter les
+                        contaminations.</p>
 
-                <hr>
+                    <hr>
 
-                <h2 class="h5">Quels sont les différents types de vaccins contre le coronavirus&nbsp;?</h2>
-                <p>Il existe plusieurs types de vaccins contre le coronavirus. En France, les vaccins Moderna, Pfizer-BioNTech et AstraZeneca sont autorisés et utilisés. Le vaccin Janssen / Johnson & Johnson sera très bientôt utilisé.</p>
+                    <h2 class="h5">Quels sont les différents types de vaccins contre le coronavirus&nbsp;?</h2>
+                    <p>Il existe plusieurs types de vaccins contre le coronavirus. En France, les vaccins Moderna,
+                        Pfizer-BioNTech et AstraZeneca sont autorisés et utilisés. Le vaccin Janssen / Johnson & Johnson
+                        sera très bientôt utilisé.</p>
 
-                <hr>
+                    <hr>
 
-                <p>
-                    Mesure d’audience&nbsp;: afin de vérifier le bon fonctionnement de notre site internet, nous effectuons
-                    <strong>une mesure anonymisée</strong> de l’utilisation du site. À l’exception de ces données de navigation, nous ne partageons
-                    aucune donnée collectée avec d’autres entreprises. Vite Ma Dose ne collecte aucune données personnelles.
-                </p>
+                    <p>
+                        Mesure d’audience&nbsp;: afin de vérifier le bon fonctionnement de notre site internet, nous
+                        effectuons
+                        <strong>une mesure anonymisée</strong> de l’utilisation du site. À l’exception de ces données de
+                        navigation, nous ne partageons
+                        aucune donnée collectée avec d’autres entreprises. Vite Ma Dose ne collecte aucune données
+                        personnelles.
+                    </p>
 
-                <hr>
+                    <hr>
 
-                <p>Vite Ma Dose n’est pas un outil officiel, n’est pas exhaustif et ne remplace pas une recherche manuelle notamment dans le cas où aucun créneau de vaccination disponible n’est proposé sur notre site.</p>
-            </div>
-            <div slot="about-lieux">
-                <p>
-                    Il y a en France plus de 2&nbsp;500 centres ou lieux de vaccination contre la Covid-19. Ces centres peuvent être des vaccinodromes,
-                    des espaces publics, des pharmacies, des cabinets médicaux ou tout autre espace proposé par un professionnel de santé.
-                    Ils sont répartis sur l’ensemble du territoire.
-                </p>
+                    <p>Vite Ma Dose n’est pas un outil officiel, n’est pas exhaustif et ne remplace pas une recherche
+                        manuelle notamment dans le cas où aucun créneau de vaccination disponible n’est proposé sur
+                        notre site.</p>
+                </div>
+                <div slot="about-lieux">
+                    <p>
+                        Il y a en France plus de 2&nbsp;500 centres ou lieux de vaccination contre la Covid-19. Ces
+                        centres peuvent être des vaccinodromes,
+                        des espaces publics, des pharmacies, des cabinets médicaux ou tout autre espace proposé par un
+                        professionnel de santé.
+                        Ils sont répartis sur l’ensemble du territoire.
+                    </p>
 
-                <h2 class="text-primary pt-5 mb-5">Comment trouver un centre de vaccination contre la Covid-19&nbsp;?</h2>
+                    <h2 class="text-primary pt-5 mb-5">Comment trouver un centre de vaccination contre la
+                        Covid-19&nbsp;?</h2>
 
-                <p>
-                    Vite Ma Dose (outil proposé par <a href="https://covidtracker.fr/" target="_blank">CovidTracker</a>) vous propose une
-                    carte qui répertorie l’ensemble des centres de vaccination contre la Covid-19 en France. Il est également possible de trouver
-                    un centre en utilisant le <a href="https://vitemadose.covidtracker.fr">moteur de recherche</a> de rendez-vous.
-                </p>
+                    <p>
+                        Vite Ma Dose (outil proposé par <a href="https://covidtracker.fr/"
+                            target="_blank">CovidTracker</a>) vous propose une
+                        carte qui répertorie l’ensemble des centres de vaccination contre la Covid-19 en France. Il est
+                        également possible de trouver
+                        un centre en utilisant le <a href="https://vitemadose.covidtracker.fr">moteur de recherche</a>
+                        de rendez-vous.
+                    </p>
 
-                <h3>Prendre rendez-vous pour se faire vacciner</h3>
+                    <h3>Prendre rendez-vous pour se faire vacciner</h3>
 
-                <p>
-                    Grâce à la carte, vous pouvez trouver le centre de vaccination le plus proche de chez vous. Pour prendre rendez-vous rapidement,
-                    nous vous conseillons de cliquer sur les centres les plus proches de chez vous, puis de cliquer sur le lien Doctolib, Keldoc,
-                    Ordoclic, MaPharma ou Maiia présent sur la fiche du centre, lorsque celui-ci est renseigné. Vous pouvez aussi appeler le centre si son
-                    numéro est indiqué.
-                </p>
+                    <p>
+                        Grâce à la carte, vous pouvez trouver le centre de vaccination le plus proche de chez vous. Pour
+                        prendre rendez-vous rapidement,
+                        nous vous conseillons de cliquer sur les centres les plus proches de chez vous, puis de cliquer
+                        sur le lien Doctolib, Keldoc,
+                        Ordoclic, MaPharma ou Maiia présent sur la fiche du centre, lorsque celui-ci est renseigné. Vous
+                        pouvez aussi appeler le centre si son
+                        numéro est indiqué.
+                    </p>
 
-                <p>
-                    Les données affichées sur cette carte proviennent du Ministère des Solidarités et de la Santé. La carte est actualisée plusieurs fois par jour
-                    afin de vous proposer les informations les plus précises possibles.
-                </p>
+                    <p>
+                        Les données affichées sur cette carte proviennent du Ministère des Solidarités et de la Santé.
+                        La carte est actualisée plusieurs fois par jour
+                        afin de vous proposer les informations les plus précises possibles.
+                    </p>
 
-            </div>
-        </vmd-app>
-    </div>
-</body>
+                </div>
+            </vmd-app>
+        </div>
+    </body>
+
 </html>
